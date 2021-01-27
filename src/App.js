@@ -1,5 +1,6 @@
 import React from 'react';
 import DisplayJSX from './challenges/DisplayJSX';
+import DisplayJSXStyled from './challenges/DisplayJSX_styledcomp';
 
 function App() {
   return (
@@ -8,7 +9,8 @@ function App() {
         <h1>10 Days of React Challenge 🏆</h1>
       </div>
       <div className="row">
-        <DisplayJSX />
+        {/* <DisplayJSX /> */}
+        <DisplayJSXStyled />
       </div>
     </div>
   );
