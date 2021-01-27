@@ -1,0 +1,22 @@
+.userlist {
+  padding: 12px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.userlist li {
+  width: 150px;
+  margin: 12px;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: 1px solid #67822e;
+  transition: all 0.2s ease-in-out;
+}
+
+.userlist li:hover {
+  transform: scale(1.1);
+}

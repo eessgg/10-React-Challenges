@@ -1,6 +1,7 @@
 import React from 'react';
 import DisplayJSX from './challenges/DisplayJSX';
 import DisplayJSXStyled from './challenges/DisplayJSX_styledcomp';
+import LoopArray from './challenges/LoopArray';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       </div>
       <div className="row">
         {/* <DisplayJSX /> */}
-        <DisplayJSXStyled />
+        {/* <DisplayJSXStyled /> */}
+        <LoopArray />
       </div>
     </div>
   );
