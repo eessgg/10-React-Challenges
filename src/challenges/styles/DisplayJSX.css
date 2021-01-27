@@ -1,0 +1,35 @@
+.card {
+  width: 22rem;
+  margin: 5rem
+}
+
+.card-content {
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+strong, h1 {
+  color: rgb(0, 98, 255);
+}
+
+p {
+  position: relative;
+  margin-top: 35px;
+}
+
+p strong {
+  color: rgb(117, 70, 0);
+  font-size: 10px;
+  position: absolute;
+  top: -13px;
+}
+
+.avatar {
+  border-radius: 35px;
+  outline: none;
+  overflow: hidden;
+}

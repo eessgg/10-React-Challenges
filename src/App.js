@@ -1,9 +1,15 @@
-import './App.css';
+import React from 'react';
+import DisplayJSX from './challenges/DisplayJSX';
 
 function App() {
   return (
-    <div className="App">
-      <h1>10 React Challenges</h1>
+    <div className="container">
+      <div className="row">
+        <h1>10 Days of React Challenge 🏆</h1>
+      </div>
+      <div className="row">
+        <DisplayJSX />
+      </div>
     </div>
   );
 }
