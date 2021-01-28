@@ -12,9 +12,9 @@ const LoopArray = () => {
         {data.map(user => {
           return (
             <li>
-              <h3> {user.name} </h3>
-              <p> {user.location} </p>
-              <p> {user.car} </p>
+              <h3>{ user.name } </h3>
+              <p> { user.location } </p>
+              <p> { user.car } </p>
             </li>
           )
         })}
