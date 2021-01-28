@@ -6,6 +6,7 @@ import UpdateForm from './challenges/UpdateForm';
 import Header from './components/Header';
 import ShowAlert from './challenges/ShowAlert';
 import AddCalc from './challenges/AddCalc';
+import DomEvents from './challenges/DomEvents';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         {/* <LoopArray /> */}
         {/* <UpdateForm /> */}
         {/* <ShowAlert /> */}
-        <AddCalc />
+        {/* <AddCalc /> */}
+        <DomEvents />
       </div>
     </div>
   );
