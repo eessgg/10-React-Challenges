@@ -7,21 +7,20 @@ import Header from './components/Header';
 import ShowAlert from './challenges/ShowAlert';
 import AddCalc from './challenges/AddCalc';
 import DomEvents from './challenges/DomEvents';
+import FetchAPI from './challenges/FetchAPI';
 
 function App() {
   return (
     <div className="container">
       <Header title="🏆 10 Days of React Challenge 🏆" />
-
-      <div className="row">
         {/* <DisplayJSX /> */}
         {/* <DisplayJSXStyled /> */}
         {/* <LoopArray /> */}
         {/* <UpdateForm /> */}
         {/* <ShowAlert /> */}
         {/* <AddCalc /> */}
-        <DomEvents />
-      </div>
+        {/* <DomEvents /> */}
+        <FetchAPI />
     </div>
   );
 }
