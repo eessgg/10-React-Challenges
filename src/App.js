@@ -8,6 +8,7 @@ import ShowAlert from './challenges/ShowAlert';
 import AddCalc from './challenges/AddCalc';
 import DomEvents from './challenges/DomEvents';
 import FetchAPI from './challenges/FetchAPI';
+import CreateComp from './challenges/CreateComp';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
         {/* <ShowAlert /> */}
         {/* <AddCalc /> */}
         {/* <DomEvents /> */}
-        <FetchAPI />
+        {/* <FetchAPI /> */}
+        <CreateComp />
     </div>
   );
 }
